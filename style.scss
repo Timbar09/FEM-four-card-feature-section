@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before, 
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  //FONT
+  --popins: 'Poppins', sans-serif;
+
+  //PRIMARY
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  //NEUTRAL
+  --veryDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+}
+
+body {
+  font-family: var(--popins);
+  font-size: 0.9375rem;
+  color: var(--grayishBlue);
+  line-height: 1.4;
+}
