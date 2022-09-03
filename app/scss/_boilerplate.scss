@@ -25,6 +25,7 @@ html {
   --veryDarkBlue: hsl(234, 12%, 34%);
   --grayishBlue: hsl(229, 6%, 66%);
   --veryLightGray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
 }
 
 body {
@@ -32,4 +33,5 @@ body {
   font-size: 0.9375rem;
   color: var(--grayishBlue);
   line-height: 1.4;
+  background-color: var(--veryLightGray);
 }
