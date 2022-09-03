@@ -1,13 +1,37 @@
 .feature {
   padding: 5.625rem 1.875rem 4.6875rem;
+  max-width: 90rem;
+  margin: 0 auto;
 
   &__text {
     text-align: center;
+    max-width: 33.4375rem;
+    margin: 0 auto;
   }
 
-  &__title {}
+  &__title {
+    color: var(--veryDarkBlue);
+    font-size: 1.5625rem;
+    margin-bottom: 1.375rem;
 
-  &__description {}
+    @include breakpoint-up(medium) {
+      font-size: 2.375rem;
+    }
+
+    div {
+      &:first-child {
+        font-weight: 200;
+      }
+
+      &:last-child {
+        font-weight: 600;
+      }
+    }
+  }
+
+  &__description {
+    font-size: 1rem;
+  }
 
   &__cards {}
 }

@@ -35,9 +35,37 @@ body {
 
 .feature {
   padding: 5.625rem 1.875rem 4.6875rem;
+  max-width: 90rem;
+  margin: 0 auto;
 }
 
 .feature__text {
   text-align: center;
+  max-width: 33.4375rem;
+  margin: 0 auto;
+}
+
+.feature__title {
+  color: var(--veryDarkBlue);
+  font-size: 1.5625rem;
+  margin-bottom: 1.375rem;
+}
+
+@media (min-width: 40em) {
+  .feature__title {
+    font-size: 2.375rem;
+  }
+}
+
+.feature__title div:first-child {
+  font-weight: 200;
+}
+
+.feature__title div:last-child {
+  font-weight: 600;
+}
+
+.feature__description {
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
