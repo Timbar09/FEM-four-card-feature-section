@@ -15,8 +15,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 This is the second challenge from Frontend Mentor that i have completed. It was a bit more difficult than the last one but I took less time to complete it than I initially anticipated.
