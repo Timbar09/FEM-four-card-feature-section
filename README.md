@@ -49,9 +49,7 @@ The site is responsive and viewers can view the optimal layout of the site accro
 
 I have learned to use Github (Desktop version) for thje very first time with this challenge. I have also learned that I can insert SVG code of an image directly into the html markup as opposed to linking the image to html with css as well as interchanging flexbox and grid for the same elements within different viewports.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+See snippets below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
