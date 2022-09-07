@@ -12,7 +12,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -34,8 +33,8 @@ The site is responsive and viewers can view the optimal layout of the site accro
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Timbar09/four-card-feature-section.git]
+- Live Site URL: [https://mt-four-card-feature.netlify.app/]
 
 ## My process
 
@@ -46,13 +45,11 @@ The site is responsive and viewers can view the optimal layout of the site accro
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [SASS](https://sass-lang.com/) - CSS3 extension
 
 ### What I learned
+
+I have learned to use Github (Desktop version) for thje very first time with this challenge. I have also learned that I can insert SVG code of an image directly into the html markup as opposed to linking the image to html with css as well as interchanging flexbox and grid for the same elements within different viewports.
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
@@ -60,45 +57,34 @@ To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
+
+<div class="feature__card-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><g fill="none"><path fill="#EFEFF4" d="M64 14.454v41.788H0V14.454l3.75-3.787h56.5z"/><path fill="#DADAE5" d="M64 14.454v41.788H32V10.667h28.25z"/><path fill="#474F54" d="M0 0h64v15.515H0z"/><path fill="#32393F" d="M32 0h32v15.515H32z"/><g fill="#FF637B"><path d="M7.758 5.818h3.685v3.879H7.758zM15.128 5.818h3.685v3.879h-3.685zM22.497 5.818h3.685v3.879h-3.685z"/></g><path fill="#FF637B" d="M45.576 42.245V64H34.355v-3.71h-3.74V64H19.394V42.245l11.37-9.275h3.105z"/><path fill="#DADAE5" d="M11.636 22.303h41.697v3.879H11.636z"/><path fill="#C9C9D3" d="M32 22.303h20.364v3.879H32z"/><path fill="#E63950" d="M45.576 42.245V64H33.939v-3.71H32V32.97h1.435z"/><path fill="#EFEFF4" d="M30.061 45.576h3.878v3.879h-3.878z"/><path fill="#DADAE5" d="M32 45.576h1.939v3.879H32z"/><path fill="#676E74" d="M50.424 45.779l-2.452 2.706-15.487-13.526-15.488 13.526-2.452-2.706 17.94-15.718z"/><path fill="#474F54" d="M32 30.061l18.424 15.718-2.518 2.706L32 34.959z"/></g></svg>
+</div>
 ```
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+
+  @include breakpoint-up(large) {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+  }
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I want to continue using Github as it is relatively new to me and I am beggining to see the benefits of it in my coding development. I would also like to use javaScript and javaScript frameworks such as React in future challenges in oder to add to my skills.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@Timbar09](https://www.frontendmentor.io/profile/yourusername)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Firstly I would like to thank muself for copleting this challenge and I also want to thank Frontend Mentor for helping me and so many others by giving us access to these challenges and helping us develop our coding skills.
